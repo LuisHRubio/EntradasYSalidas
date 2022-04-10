@@ -6,10 +6,29 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="module" src="script.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lista de piezas</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="col-9">
+            <a href="index.html"><img src="./imgs/cfe.png" style="height: 60px" class="mx-3"></a>
+        </div>
+        <div class="col-2">
+            <a class="btn btn-secondary" href="editar.html">Editar Pieza (Se requiere ID)</a>
+        </div>
+        <div class="col-1">
+            <a class="btn btn-success" href="nuevo.html">Insertar Pieza</a>
+        </div>
+
+
+
+
+    </nav>
     <div class="container">
+        <div class="text-center my-4">
+            <h1>Tabla de entrada y salida de Piezas</h1>
+        </div>
+
         <table class="table table-hover">
             <thead class="">
                 <th scope="col" class="col-id columna" style="text-align: left !important;">
@@ -40,5 +59,6 @@
             </tbody>
         </table>
     </div>
+
 </body>
 </html>
